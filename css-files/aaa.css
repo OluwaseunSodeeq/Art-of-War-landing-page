@@ -1,0 +1,40 @@
+
+.picture {
+  
+    width: 700px;
+    height: 600px;
+   
+ 
+}
+.pictures {
+   position: relative;
+  
+}
+
+ 
+.pictures img {
+    position: absolute;
+    width:60% ;
+    transition: all  .5s;
+    box-shadow: -3px 1px 5px rgba(0,0,0,.5);
+}
+.pictures img:hover{
+    z-index: 20;
+    transform: scale(1.2) translate(4);
+    
+}
+.pictures >.abba {
+    margin-top: 25px;
+    left: 50px;
+}
+.pictures >.adda {
+    margin-top: 75px;
+}
+.pictures >.acca {
+    
+    margin-top: 5px;
+    left: 25px;
+}
+
+
+
